@@ -1,5 +1,5 @@
 # CME
-CryptME quick and dirty ransomware in python with a C2 Server, currently a work in progress. 
+CryptME quick and dirty ransomware in python with a C2 Server, currently a work in progress and untested. 
 Apache/Nginx with PHP support.
 
 Adjust main.py and C2 with bitcoin address, contact email, AES key, and DNS A record to reach server. (Try and use an onion proxy to minimize risk) Then build setup.py with py2exe.
